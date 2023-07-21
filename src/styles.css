@@ -32,8 +32,14 @@ a{
     margin-block: 44px;
     align-items: center;
     text-align: center;
-    
+    transition: transform 0.3s ease;
 }
+
+.Card:hover {
+    transform: scale(1.03); /* Expand the project div by 10% */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
 .Card h4{
     color: #F3BF99;
     font-weight: 400;
@@ -52,9 +58,16 @@ a{
 .LinkedIn{
     background-color: #5093E2;
     color: white;
+    
+}
+
+button:hover {
+    transform: scale(1.07); /* Expand the project div by 10% */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 button{
+    transition: transform 0.3s ease;
     border: 2px solid black;
     border-radius: 10px;
     width: 35%;

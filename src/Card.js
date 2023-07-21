@@ -16,7 +16,7 @@ export default function Card(){
                     <a rel="noreferrer" target="_blank" href="https://agamtyagi1717.github.io/personal-website-main/">Portfolio</a> 
                     <br/>
 
-                    <a href="mailto:agamtyagi1717@gmail.com">
+                    <a rel="noreferrer" target="_blank" href="mailto:agamtyagi1717@gmail.com">
                         <button classname="Email" type='button'>Email</button>
                     </a>
                     <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/agam-tyagi-651a35188/">
